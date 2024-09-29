@@ -1,0 +1,14 @@
+{
+  "name": "evlimma",
+  "main": "dist/evlimma.js",
+  "license": "MIT",
+  "ignore": [
+    "package.json"
+  ],
+  "keywords": [
+    "evlimma",
+    "javascript",
+    "browser",
+    "library"
+  ]
+}

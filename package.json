@@ -1,0 +1,36 @@
+{
+  "name": "evlimma",
+  "title": "EvLimma",
+  "description": "JavaScript library for DOM operations",
+  "version": "1.0.0",
+  "main": "dist/evlimma.js",
+  "homepage": "https://codigospace.com.br",
+  "author": {
+    "name": "EvLimma Foundation",
+    "url": "https://github.com/evlimma/AUTHORS.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evlimma/npm.git"
+  },
+  "keywords": [
+    "evlimma",
+    "javascript",
+    "browser",
+    "library"
+  ],
+  "bugs": {
+    "url": "https://github.com/evlimma/npm/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^3.7.1"
+  },
+  "scripts": {
+    "build:ckeditor": "webpack --mode production",
+    "build:dragger": "webpack --config webpack.config.dragger.js",
+    "watch:dragger": "webpack --watch --config webpack.config.dragger.js",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js"
+  }
+}
